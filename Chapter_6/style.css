@@ -1,0 +1,16 @@
+body {
+  color: crimson;
+  justify-content: center;
+}
+
+.error {
+  padding: 10px;
+  color: crimson;
+  border: 1px dotted limegreen;
+}
+
+.success {
+  padding: 10px;
+  color: limegreen;
+  border: 1px dotted limegreen;
+}
