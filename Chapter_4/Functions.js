@@ -81,7 +81,7 @@ const people = ["mario", "luigi", "yoshi", "toad", "princess"];
 
 let html = "";
 
-people.forEach(function (person) {
+people.forEach((person) => {
   html += `<li style="color: purple"> ${person}</li>`;
 });
 
