@@ -22,32 +22,88 @@
 // console.log(score);
 
 //strings
-console.log("hello, world");
+// console.log("hello, world");
 
 let email = "mario@gmail.com";
-console.log(email);
+// console.log(email);
 
-// string concatenation
+// // string concatenation
 
-let fName = "Mario";
-let lName = "Bros";
+// let fName = "Mario";
+// let lName = "Bros";
 
-let fullName = fName + " " + lName;
-console.log(fullName);
+// let fullName = fName + " " + lName;
+// console.log(fullName);
 
-// getting characters
-console.log(fullName[1]);
+// // getting characters
+// console.log(fullName[1]);
 
-// stirng lenghth
-console.log(fullName.length);
+// // stirng lenghth
+// console.log(fullName.length);
 
-// string methods
-console.log(fullName.toUpperCase());
+// // string methods
+// console.log(fullName.toUpperCase());
 
-let result = fullName.toLowerCase();
+// let result = fullName.toLowerCase();
 
-console.log(result, fullName);
+// console.log(result, fullName);
 
-let index = email.indexOf("@");
+// let index = email.indexOf("@");
 
-console.log(index);
+// console.log(index);
+
+//common string methods
+// let result = email.lastIndexOf("m");
+
+// let result2 = email.slice(0, 5);
+
+// let result3 = email.substr(2, 6);
+
+// console.log(result3);
+
+// let radius = 10;
+// const pi = 3.14;
+
+// console.log(radius, pi);
+
+// //math operators +,0,*,/,**(to the power of),%(reminder)
+
+// // let result = radius % 3;
+
+// // order of operation - B I D M A S
+
+// let result = 10 + 5 * 2 - 3;
+
+// let likes = 10;
+// likes++;
+// likes += 10;
+
+// console.log(likes);
+
+// console.log(result);
+
+// const title = "Best reads of 2025";
+// const author = "John Doe";
+// const date = "2025-01-01";
+
+// let result = "the blog called " + title + "by ${author} on ${date}";
+
+// console.log(result);
+
+//arrays
+// let ages = [20, 25, 30, 35];
+// console.log(ages.length);
+
+let age = 25;
+
+// ==, !=, ===, !==, >, <, >=, <= this are the comparison operators.
+
+//convert string to number
+let score = "100";
+
+score = Number(score);
+console.log(score + 1, typeof score);
+
+//conver number to string
+let result = String(100);
+console.log(result, typeof result);
