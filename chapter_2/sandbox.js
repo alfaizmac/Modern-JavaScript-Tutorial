@@ -96,7 +96,7 @@ let email = "mario@gmail.com";
 
 let age = 25;
 
-// ==, !=, ===, !==, >, <, >=, <= this are the comparison operators.
+// ==, !=, ===(the last = mean if they are same variable), !==, >, <, >=, <= this are the comparison operators.
 
 //convert string to number
 let score = "100";
